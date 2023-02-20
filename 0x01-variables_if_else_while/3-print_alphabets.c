@@ -9,10 +9,13 @@ int main(void)
 	char lower_case_alphbt = 'a';
 	char upper_case_alphbt = 'A';
 
-	while (lower_case_alphbt <= 'z' && upper_case_alphbt <= 'Z')
+	while (lower_case_alphbt <= 'z')
 	{
 		putchar(lower_case_alphbt);
 		lower_case_alphbt++;
+	}
+	while (upper_case_alphbt <= 'Z')
+	{
 		putchar(upper_case_alphbt);
 		upper_case_alphbt++;
 	}
