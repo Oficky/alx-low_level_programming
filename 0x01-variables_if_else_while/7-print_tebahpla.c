@@ -4,7 +4,7 @@
  * Description: print alphabet in reverse order in lowercase
  * Return: 0
  */
-int masin(void)
+int main(void)
 {
 	char x;
 
