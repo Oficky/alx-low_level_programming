@@ -1,4 +1,4 @@
-#include < stdio.h >
+#include <stdio.h>
 /**
  * main - main code block
  * Description: use 'putchar' function to prints english lowercase alphabet
@@ -10,7 +10,7 @@ int main(void)
 
 	while (lower_case_alphbt <= 'z')
 	{
-		putchar("%c ", lower_case_alphbt);
+		putchar(lower_case_alphbt);
 		lower_case_alphbt++;
 	}
 	putchar('\n');
