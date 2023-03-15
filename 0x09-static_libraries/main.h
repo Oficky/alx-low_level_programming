@@ -2,10 +2,10 @@
 #define MAIN_H
 
 /*
- * File: holberton.h
+ * File: oficky.h
  * Auth: Brennan D Baraban
  * Desc: Header file containing the prototypes of all functions
- *       included in the static library libholberton.a.
+ *       included in the static library liboficky.a.
  */
 
 int _putchar(char c);
